@@ -1,0 +1,35 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    display: block;
+    justify-content: center;
+}
+.weather-info {
+        margin-bottom: 20px;
+        padding: 15px;
+        background: linear-gradient(to right, #5e60ce, #48bfe3);
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        color: #ffff;
+}
+.forecast {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+}
+.day {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 120px;
+        margin-bottom: 20px;
+        padding: 15px;
+        background: rgb(160, 165, 160);
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        color: #ffff;
+} 
